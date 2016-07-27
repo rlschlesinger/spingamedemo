@@ -73,7 +73,13 @@ body{
   margin: 0 auto;
   bottom: 0;
   display: block;
-  width: 20%;
+  width: 100%;
   position: relative;
   z-index: 6;
+}
+
+#maxbutton{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 }
