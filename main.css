@@ -1,0 +1,114 @@
+/* Main Style */
+body{
+  background-image: url("../images/backgrounds/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main{
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: fixed;
+  bottom:-2%;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+}
+
+#frame{
+  margin: 0 auto;
+
+}
+
+#frame img{
+  margin: 0 auto;
+}
+
+.game-frame{
+  width: 100%;
+  position: relative;
+}
+
+.frame-title{
+  max-width: 400px;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.frame-background{
+  background: rgb(255, 252, 226);
+  margin: 0 auto;
+  left: 2%;
+  right: 2%;
+  top: 7%;
+  bottom: 20%;
+  position: absolute;
+}
+
+#controls{
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/controlbar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-bottom: 1%;
+}
+
+
+
+#spinbutton {
+  margin: 0 auto;
+  bottom: 0;
+  display: block;
+  width: 20%;
+  position: relative;
+}
+
+#maxbutton{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.reel{
+  height: 100px;
+  width: 20%;
+  padding-right: 5%;
+  padding-left: 5%;
+  top: 0;
+  position: absolute;
+}
+
+.reel-one{
+  left: 0;
+  background-color: orange;
+}
+
+.reel-two{
+  left: 20%;
+  background-color: green;
+}
+
+.reel-one{
+  left: 40%;
+  background-color: orange;
+}
+
+.reel-one{
+  left: 60%;
+  background-color: green;
+}
+
+.reel-one{
+  left: 80%;
+  background-color: orange;
+}
